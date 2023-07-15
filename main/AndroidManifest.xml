@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.oda_user">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ODA_User">
+        <activity
+            android:name=".contact_us"
+            android:exported="false" />
+        <activity
+            android:name=".donate_organ"
+            android:exported="false" />
+        <activity
+            android:name=".doctor"
+            android:exported="false" />
+        <activity
+            android:name=".donate_an_organ_form"
+            android:exported="false" />
+        <activity
+            android:name=".request_organ_form"
+            android:exported="false" />
+        <activity
+            android:name=".donor"
+            android:exported="false" />
+        <activity
+            android:name=".request_organ"
+            android:exported="false" />
+        <activity
+            android:name=".recipient"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".registration"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
